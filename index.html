@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Kodecolor</title>
 </head>
 <body>
@@ -19,14 +20,16 @@
                     <span>Kodecolor</span>
                 </div>
                 <div class="search">
-                    <input type="text" placeholder="Search">
+                    <i class="fa-solid fa-magnifying-glass"></i> <input type="text" placeholder="Search">
                 </div>
                 <ul class="menu">
                     <li>Find People</li>
-                    <li>Message</li>
+                    <li>Message
+                        <p>4</p>
+                    </li>
                     <li>My Contacts</li>
                     <li>
-                        <img class="head-img" src="./images/img-1.jfif" alt="">
+                        <img class="head-img" src="./images/user.png" alt="">
                         <div class="active"></div>
                     </li>
                 </ul>
@@ -34,42 +37,49 @@
             </header>
         <!-- Top Feature -->
   <section class="top-features">
-    <div class="img-box">
-        <img src="./images/img-1.jfif" alt="">
+    <div class="top-feature-img-box">
+        <img src="./images/user.png" alt="">
     </div>
-    <div class="feature-info">
+    <div class="top-feature-info">
 
-        <div class="top">
-                <h1>Jeremy Rose <br> 
-                    <span>Product Designer</span>
+        <div class="top-feature-top">
+                <h1>Jeremy Rose 
+                    <p>Product Designer</p>
                 </h1>
-                <p>New York, NY</p>
+                <p><i class="fa-solid fa-location-dot"></i> New York, NY</p>
         </div>
 
-        <div class="center">
-            <span>RANKINGS</span>
+        <div class="top-feature-center">
+            <p>RANKINGS</p>
             <div class="rating">
-                <span>8, 6</span>
-                <span>*******</span>
+                <p>8, 6</p>
+               <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star extra"></i>
+               </div>
             </div>
             <div class="btn-group">
-                <span class="msg">Send Message</span>
-                <button class="contact-btn">Contacts</button>
+                <span class="msg"><i class="fa-solid fa-message"></i> Send Message</span>
+                <button class="contact-btn"><i class="fa-solid fa-check"></i> Contacts</button>
                 <span class="report">Report user</span>
             </div>
         </div>
 
-        <div class="bottom">
-            <p>Timeline</p>
-            <p>About</p>
+        <div class="top-feature-bottom">
+            <p><i class="fa-solid fa-eye" style="margin-right: 5px;"></i> Timeline</p>
+            <p><i class="fa-solid fa-user" style="margin-right: 5px;"></i> About</p>
         </div>
 
     </div>
-    <p>Bookmark</p>
+    <p style="color: gray; margin-top: .5rem;"><i class="fa-solid fa-bookmark"> </i> Bookmark</p>
   </section>
+
   <!-- Bottom Feature -->
   <section class="bottom-features">
-    <div class="bottom-left">
+    <div class="bottom-feature-left">
 
         <div class="border-with-text">
             <p>WORK </p>
@@ -109,27 +119,29 @@
             <li>Print & Editorial</li>
         </ul>
     </div>
-    <div class="bottom-right">
-        <span>CONTACT INFORMATION</span>
+    <div class="bottom-feature-right">
+        <p>CONTACT INFORMATION</p>
         <ul class="contact-details">
             <li class="contact-item">
-                <span>Phone:</span>
-                <span>+1 123 456 7890</span>
+                <span class="left">Phone:</span>
+                <span class="right blue-color">+1 123 456 7890</span>
             </li>
             <li class="contact-item">
-                Address: <span>525 E 68th Street <br> New York, NY 10651-78 156-187-60</span>
+               <span class="left"> Address: </span>
+               <span class="right">525 E 68th Street <br> New York, NY 10651-78 156-187-60 </span>
             </li>
             <li class="contact-item">
-                <span>E-mail: </span>
-                <span>hello@Jeremyrose.com</span>
+                <span class="left">E-mail: </span>
+                <span class="right blue-color">hello@Jeremyrose.com</span>
             </li>
             <li class="contact-item">
-                <span>Site: </span>
-                <span>www.jeremyrose.com</span>
+                <span class="left">Site: </span>
+                <span class="right blue-color">www.jeremyrose.com</span>
             </li>
         </ul>
-        <span>BASIC INFORMATION</span>
-        <ul>
+        <br>
+        <p>BASIC INFORMATION</p>
+        <ul class="basic-info">
             <li>
                 <span>
                     Birthday:
