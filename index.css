@@ -60,11 +60,22 @@ nav{
     color: #8B97A0;
 }
 
+.search{
+    position: relative;
+}
+
 .search > input{
     outline: none;
     border: none;
     border: 1px solid #8B97A0;
-    padding: .6rem 1rem;
+    padding: .6rem 2rem;
+}
+
+.search > .search-btn{
+    position: absolute;
+    top: 9px;
+    left: 9px;
+    color:#8B97A0;
 }
 
 
@@ -212,7 +223,7 @@ nav{
 }
 
 .top-feature-bottom{
-    border-bottom: 1px solid #8B97A0;
+    border-bottom: 1px solid rgba(139, 151, 160, .3);
     margin-top: 3.9rem;
     display: flex;
     gap: 3rem;
@@ -221,6 +232,7 @@ nav{
 .top-feature-bottom > p{
     font-size: 1.2rem;
     color: #8B97A0;
+    padding-bottom: .3rem;
 }
 
 .top-feature-bottom > p:nth-last-child(1){
@@ -234,6 +246,9 @@ nav{
     display: flex;
     gap: 6rem;
 }
+
+
+/* Bottom feature left */
 
 
 .border-with-text {
@@ -250,7 +265,7 @@ nav{
     color: #8B97A0;
 }
 
-/* Bottom feature left */
+
 .border-with-text > .border{
     margin-top: .4rem;
     width: 100%;

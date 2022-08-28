@@ -1,0 +1,187 @@
+
+@media screen and (max-width: 768px) {
+
+  /* Header */
+  header{
+    height: max-content;
+}
+
+nav{
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+
+
+
+
+
+
+.menu{
+
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    position: relative;
+}
+
+.menu > li{
+    margin-left: 0;
+}
+
+
+.menu > li > .head-img{
+    width: 80px;
+    height: 80px;
+}
+
+
+.menu > li > .active{
+    top: 120px;
+    right: 20px;
+    width: 16px;
+    height: 16px;
+
+}
+
+
+
+    /* Top features */
+    .top-features{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .top-feature-img-box{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+
+    /* top feature top */
+    .top-feature-top{
+        flex-direction: column;
+    }
+    
+    .top-feature-top > h1 {
+        margin-bottom: .5rem;
+        text-align: center;
+    }
+    
+    .top-feature-top > h1 > p{
+        margin-top: .5rem;
+        text-align: center;
+    }
+    
+    .top-feature-top > p{
+        text-align: center;
+    }
+    
+
+/* top feature center */
+.top-feature-center > p{
+    text-align: center;
+    margin-top: 2rem;
+}
+.top-feature-center > .rating{
+    justify-content: center;
+}
+
+
+.top-feature-center > .btn-group{
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.btn-group{
+    margin-top: 0;
+    flex-direction: column;
+}
+
+/* top feature bottom */
+
+.top-feature-bottom{
+    justify-content: center;
+}
+
+.bookmark{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+/* bottom feature */
+.bottom-features{
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Bottom feature left */
+.border-with-text {
+    justify-content: center;
+}
+
+
+.border-with-text > .border{
+    width: 200px;
+}
+
+
+.bottom-feature-left > .city > .first{
+    text-align: center;
+}
+
+.city > .first > h2{
+    justify-content: center;
+}
+
+
+
+.bottom-feature-left > .city > .second{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.city > .second > h2{
+    justify-content: center;
+}
+
+
+.skill-list{
+    text-align: center;
+}
+
+
+
+/* Bottom feature Right */
+
+.bottom-feature-right{
+    color: #8B97A0;
+}
+
+.bottom-feature-right > p{
+    text-align: center;
+}
+
+.contact-details{
+    text-align: center;
+}
+
+.contact-details > .contact-item{
+    flex-direction: column;
+}
+
+.basic-info{
+    text-align: center;
+}
+
+.basic-info > li{
+
+    flex-direction: column;
+    gap: .2rem;
+
+}
+
+}
