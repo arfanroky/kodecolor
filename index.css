@@ -14,7 +14,7 @@ body{
 }
 
 main{
-    width: 1200px;
+    width: 1000px;
     height: 660px;
     margin: 4rem auto;
     background-color: white;
@@ -67,7 +67,9 @@ nav{
 
 .menu{
     display: flex;
+    align-items: center;
     list-style: none;
+    position: relative;
 }
 
 .menu > li{
@@ -75,9 +77,119 @@ nav{
     font-size: 1.2rem;
     font-weight: 500;
     color: #393535;
+    
+}
+
+.menu > li > .head-img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 40px;
+}
+
+.menu > li > .active{
+    position: absolute;
+    top: 0;
+    right: 3px;
+    background-color: rgb(28, 226, 28);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
 }
 
 /* Top Features */
 .top-features{
     border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem
+}
+
+.img-box > img{
+    width: 250px;
+    height: 300px;
+    border-radius: 4px;
+}
+
+.feature-info{
+    margin-left: -200px;
+}
+
+.feature-info > .top{
+    display: flex;
+}
+
+.feature-info > .top > h1 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+.feature-info > .top > h1 > span{
+    text-transform: capitalize;
+    font-size: .9rem;
+    color: rgb(110, 110, 232);
+}
+
+.feature-info > .top > p{
+    margin-top: .7rem;
+    margin-left: .5rem;
+    color: gray;
+}
+
+.center > span{
+    color: gray;
+    margin: .5rem 0;
+}
+
+.center > .rating{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+}
+
+.center > .btn-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 2rem;
+}
+
+.center > .btn-group > .msg{
+    font-size: 1.2rem;
+    color: #393535;
+}
+
+.center >.btn-group > .contact-btn{
+    outline: none;
+    padding: .5rem 1rem;
+    background: rgb(186, 186, 253);
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 2px;
+    font-size: 1.2rem;
+}
+
+.center > .btn-group > .report{
+    font-size: 1.2rem;
+    color: #393535;
+}
+
+.feature-info > .bottom{
+    border-bottom: 1px solid gray;
+    margin-top: 3.9rem;
+    display: flex;
+    gap: 3rem;
+}
+
+.feature-info > .bottom > p{
+    font-size: 1.2rem;
+    color: #393535;
+}
+
+.feature-info > .bottom > p:nth-last-child(1){
+    border-bottom: 2px solid rgb(92, 92, 238);
 }
